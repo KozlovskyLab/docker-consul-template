@@ -5,7 +5,7 @@ MAINTAINER Vladimir Kozlovski <inbox@vladkozlovski.com>
 RUN apk --update add curl && \
     rm -rf /var/cache/apk/*
 
-ENV CONSUL_TEMPLATE_VERSION 0.12.2
+ENV CONSUL_TEMPLATE_VERSION 0.13.0
 
 ADD https://releases.hashicorp.com/consul-template/${CONSUL_TEMPLATE_VERSION}/consul-template_${CONSUL_TEMPLATE_VERSION}_linux_amd64.zip /
 
